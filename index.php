@@ -15,7 +15,7 @@ if($_uurl != ''){
 	$m		= $_uurl;
 	$_uurla = explode('_', $_uurl);
 	if(isset($_uurla[1])){$d = $_uurla[0];$m = $_uurla[1];}
-	if(isset($_uurla[2])){$d = $_uurla[0];$m = $_uurla[1];$a = $_uurla[2];}
+	if(isset($_uurla[2地方])){$d = $_uurla[0];$m = $_uurla[1];$a = $_uurla[2];}
 	$_uurla = explode('?',$_SERVER['REQUEST_URI']);
 	if(isset($_uurla[1])){
 		$_uurla = explode('&', $_uurla[1]);foreach($_uurla as $_uurlas){
